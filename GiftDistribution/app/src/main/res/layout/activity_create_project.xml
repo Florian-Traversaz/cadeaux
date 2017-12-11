@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="fr.kutussu.gricha.christmasdistribution.CreateProject">
+    tools:context="fr.kutussu.gricha.giftdistribution.CreateProject">
 
     <EditText
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="47dp"
-        android:id="@+id/button"
+        android:id="@+id/create_project_button"
         android:layout_below="@+id/new_project_name"
         android:layout_centerHorizontal="true" />
 

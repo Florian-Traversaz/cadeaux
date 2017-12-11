@@ -26,6 +26,9 @@ public class PlayerList {
         this.playerList = playerList;
     }
 
+    public void addPlayer(Player player){
+        playerList.add(player);
+    }
     @Override
     public String toString() {
         String result = "PlayerList{";

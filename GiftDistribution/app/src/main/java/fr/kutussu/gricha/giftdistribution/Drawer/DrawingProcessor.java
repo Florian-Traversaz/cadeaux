@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 
 import fr.kutussu.gricha.giftdistribution.model.Player;
+import fr.kutussu.gricha.giftdistribution.model.Rule;
 
 /**
  * Created by flori on 20/11/2016.
@@ -37,7 +38,7 @@ public class DrawingProcessor {
                 supplierTempArrayList.remove(supplierPlayer);
             }
             numberOfTry++;
-            if (numberOfTry == 1000)
+            if (numberOfTry == 100)
                 break;
         }
 
@@ -73,7 +74,7 @@ public class DrawingProcessor {
     private Boolean isAuthorized(Player receiverPlayer, Player supplierPlayer) {
         if (receiverPlayer != supplierPlayer) {
             for (Rule rule : ruleList) {
-                if ((rule.getPlayer1().equals(receiverPlayer) && rule.getPlayer2().equals(supplierPlayer)) ||
+                if (
                         (rule.getPlayer1().equals(supplierPlayer) && rule.getPlayer2().equals(receiverPlayer))) {
                     return Boolean.FALSE;
                 }

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Christmas Gift Distribution</string>
-    <string name="create_project_button">Create a new project</string>
-    <string name="create_this_project_button">Create this project</string>
-    <string name="open_project_button">Open existing project</string>
+    <string name="app_name">Secret Santa</string>
+    <string name="create_project_button">Creer un nouveau projet</string>
+    <string name="create_this_project_button">Créer ce projet</string>
+    <string name="open_project_button">Ouvrir un projet existant</string>
 </resources>

@@ -5,6 +5,24 @@ package fr.kutussu.gricha.giftdistribution.model;
  */
 
 public enum Gender {
-    MEN,
-    WOMEN;
+    MALE,
+    FEMALE;
+
+    public static boolean getBooleanFromGender(Gender gender){
+        if(gender.equals(Gender.MALE)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public static Gender getGenderFromBoolean(Boolean gender){
+        if(gender){
+            return Gender.MALE;
+        }
+        else{
+            return Gender.FEMALE;
+        }
+    }
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import fr.kutussu.gricha.giftdistribution.Drawer.DrawingProcessor;
-import fr.kutussu.gricha.giftdistribution.Drawer.Rule;
+import fr.kutussu.gricha.giftdistribution.model.Rule;
 import fr.kutussu.gricha.giftdistribution.model.Gender;
 import fr.kutussu.gricha.giftdistribution.model.Player;
 import fr.kutussu.gricha.giftdistribution.model.PlayerList;
@@ -23,11 +23,11 @@ public class DrawerProcessorTest {
         PlayerList playerList = new PlayerList();
         ArrayList<Player> inputPlayerArrayList = playerList.getPlayerList();
 
-        Player player1 = new Player("Florian", "mail1", Gender.MEN);
-        Player player2 = new Player("Emma", "mail2", Gender.WOMEN);
-        Player player3 = new Player("Gaspard", "mail3", Gender.MEN);
-        Player player4 = new Player("Nico", "mail4", Gender.MEN);
-        Player player5 = new Player("Alex", "mail5", Gender.MEN);
+        Player player1 = new Player("Florian", "mail1", Gender.MAN);
+        Player player2 = new Player("Emma", "mail2", Gender.WOMAN);
+        Player player3 = new Player("Gaspard", "mail3", Gender.MAN);
+        Player player4 = new Player("Nico", "mail4", Gender.MAN);
+        Player player5 = new Player("Alex", "mail5", Gender.MAN);
         inputPlayerArrayList.add(player1);
         inputPlayerArrayList.add(player2);
         inputPlayerArrayList.add(player3);
