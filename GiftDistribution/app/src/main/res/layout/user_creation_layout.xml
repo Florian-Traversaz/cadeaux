@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/username_user_creation_id"
+        android:hint="nom" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/mail_usercreation_id"
+        android:hint="mail" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender_radio_group_usercreation_id"
+        android:orientation="horizontal">
+        <RadioButton
+            android:text="Homme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homme_radio_button"
+            android:padding="1dp"
+            android:contentDescription="MALE" />
+
+        <RadioButton
+            android:text="Femme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/femme_radio_button"
+            android:contentDescription="FEMALE" />
+
+    </RadioGroup>
+
+</LinearLayout>

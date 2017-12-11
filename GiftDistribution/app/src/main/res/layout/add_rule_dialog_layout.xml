@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="140dp"
+        android:layout_height="57dp"
+        android:id="@+id/player1_rule_spinner"
+        android:layout_weight="0.77" />
+
+    <TextView
+        android:text="n'offre pas à"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:id="@+id/rule_text_view"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:layout_width="140dp"
+        android:layout_height="59dp"
+        android:id="@+id/player2_rule_spinner"
+        android:layout_weight="1.37" />
+</LinearLayout>
